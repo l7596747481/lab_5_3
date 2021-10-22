@@ -32,7 +32,7 @@ double p(const double x)
         do
         {
             j++;
-            double R = - (pow(x, 2) / (4 * pow(j, 2) - 2 * j));
+            double R = - x * x / (4 * pow(j, 2) - 2 * j));
             a *= R;
             S += (1. / cos(x)) * a;
         } while (j < 4);
